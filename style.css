@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(78, 155, 255);
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header #top{
+    display: flex;
+    flex-direction: row;
+}
+
+header #menu button img{
+    height: 5vh;
+    width: 5vh;
+}
+
+header #top h2{
+    font-size: 2.5vh;
+}
+
+header #menu button{
+    background-color: transparent;
+    border: none;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#main .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem 0rem;
+    color: rgb(0, 130, 252);
+}
+
+#main .row img{
+    height: 3rem;
+    width: 5rem;
+}
+
+#main #plusIcon img{
+    /* background-color: black; */
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 85vh;
+    left: 33vh;
+}
+
+#main #RemoveIcon img{
+    /* background-color: black; */
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 85vh;
+    right: 33vh;
+}
+
+
+#popupon{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 50vh;
+    width: 82vw;
+    background-color: white;
+    position: absolute;
+    top: 27vh;
+    left: 9vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#popupon #input1{
+    margin: 5vh 0 3rem 0rem;
+}
+
+#popupon input{
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    width: 65vw;
+}
+
+#popupon button{
+    font-size: 1.3rem;
+    padding: 0.4rem 1.7rem;
+    font-weight: 900;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    border:2px solid #6091fd;
+    color: #6091fd;
+    background-color: white;
+}
+
+#main #asideOn{
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    background-color: rgb(78, 155, 255);
+    top: 0;
+    left: 40vw;
+    z-index: 1;
+}
+
+#main #asideOn #AsideTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.7rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+#main #asideOn #AsideTop img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+#main #asideOn #AsideTop button{
+    background-color: transparent;
+    border: none;
+}
+
+#main #transparentOn{
+    /* background-color: white; */
+    backdrop-filter: blur(4px);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ItemCheckBoxOff{
+    height: 0;
+    width: 0;
+    border: none;
+}
+
+.ItemCheckBoxOn{
+    
+}
