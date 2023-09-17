@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(78, 155, 255);
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header #top{
+    display: flex;
+    flex-direction: row;
+}
+
+header #menu button img{
+    height: 5vh;
+    width: 5vh;
+}
+
+header #top h2{
+    font-size: 2.5vh;
+}
+
+header #menu button{
+    background-color: transparent;
+    border: none;
+}
+
+
+#main #Mainimage img{
+    height: 45vh;
+}
+
+#main #Mainimage{
+    text-align: center;
+}
+
+#main #MainDetails{
+    margin-left: 0.5rem;
+}
+
+#main #MainDetails h3{
+    font-size: 1.8rem;
+    color: rgb(78, 155, 255);
+}
+
+#main #MainDetails p{
+    color: black;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+#main #MainDetails #comments{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+#main #MainDetails #comment{
+    color: gray;
+    margin-left: -1rem !important;
+}
+
+#main #MainDetails #comments #commentCard {
+    width: 88%;
+    margin-top: 1rem;
+    background-color: rgb(231, 231, 231);
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer button{
+    width: 50vw;
+    height: 4rem;
+    border-top: 2px solid rgb(78, 155, 255) !important;
+    border: none;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-family: system-ui;
+    font-weight: 900;
+}
+
+footer #AddCart{
+    background-color: rgb(78, 155, 255);
+    color: white;
+}
+
+footer #BuyButton{
+    background-color: white;
+    color: rgb(78, 155, 255);
+}

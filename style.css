@@ -162,3 +162,16 @@ header #menu button{
 .ItemCheckBoxOn{
     
 }
+
+.None{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem 0rem;
+    color: rgb(0, 130, 252);
+}
